@@ -1,0 +1,121 @@
+.wrapp-pay-info{
+    background-color: #001843;
+        max-width: 100%;
+}
+.pay-info{
+
+        background-color: #001843;
+        padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1624px;
+	    display: flex;
+       justify-content: space-between;
+        margin: 0 auto;
+        &__links{
+            display:flex;
+        }
+        
+        &__header{
+            
+            color: #ffffff;
+            font-family: var(--main1-font-family);
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+		    align-items: center;
+        }
+        &__icons_paypal{
+            width: 109px;
+            height: 86px;
+            background-image: url(../../images/pay.png);
+            background-position: center;
+            background-repeat: no-repeat;
+           margin-top:35px;
+           margin-bottom:35px;
+           margin-right:140px;
+           
+          
+	transform: scale(1);
+	transition: .3s ease-in-out;
+           &:hover{
+            transform: scale(1.5);
+        }
+       }
+       &__icons_mastercard{
+        width: 109px;
+    height: 86px;
+        background-image: url(../../images/master.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        margin-top:35px;
+           margin-bottom:35px;
+           transform: scale(1);
+           transition: .3s ease-in-out;
+           margin-right:140px;
+                  &:hover{
+                   transform: scale(1.2);
+               }
+   }
+   &__icons_maestro{
+    width: 109px;
+    height: 86px;
+    background-image: url(../../images/maestro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+        align-items: center;
+        margin-top:35px;
+           margin-bottom:35px;
+           transform: scale(1);
+    transition: .3s ease-in-out;
+    margin-right:140px;
+           &:hover{
+            transform: scale(1.2);
+        }
+    }
+    &__icons_visa{
+        width: 109px;
+    height: 86px;
+        background-image: url(../../images/visa.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        margin-top:35px;
+           margin-bottom:35px;
+           transform: scale(1);
+            transition: .3s ease-in-out;
+
+        
+           &:hover{
+            transform: scale(1.2);
+        }
+        }
+       
+
+        &__icons_yandex{
+            width: 109px;
+            height: 86px;
+            background-image: url(../../images/yandax.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            margin-top:35px;
+           margin-bottom:35px;
+           transform: scale(1);
+           transition: .3s ease-in-out;
+           margin-right:140px;
+           &:hover{
+            transform: scale(1.5);
+        }
+            }
+       
+      
+            
+         
+       
+    }
+   

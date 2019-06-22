@@ -1,0 +1,648 @@
+@media (min-width: 1520px) {
+  .hamburger,
+  .cross {
+    display: none ;
+  }
+  .link-section {
+    display: flex ;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1520px) {
+  .footer,
+  .footer-item2,
+  .menu-section.pay-info,
+  .pay-info__links {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  iframe {
+    width: 100% ;
+    margin: 0 auto;
+  }
+  .info-container__table {
+    width: 100% ;
+    margin: 0 auto;
+    margin-left: 0 ;
+    margin-top: 10px ;
+  }
+  .info-container__button {
+    margin-left: 0% ;
+    margin: 0 auto ;
+    margin-top: 20px ;
+  }
+  .link-section {
+    display: flex ;
+  }
+  .hamburger,
+  .cross {
+    display: none ;
+  }
+  .info-container-item {
+    flex-wrap: wrap;
+  }
+  .pay-info__icon {
+    margin-right: 40px ;
+  }
+  .link-section {
+    display: block;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .hamburger,
+  .cross {
+    display: none ;
+  }
+  .footer {
+    margin: 0 auto ;
+  }
+  .header {
+    padding-left: 10px ;
+    margin: 0 auto ;
+  }
+  .link-section {
+    display: flex ;
+  }
+  .header__title {
+    font-size: 20px ;
+    width: 60% ;
+  }
+  .header__number {
+    font-size: 100px ;
+  }
+  .hedaer__info {
+    font-size: 18px ;
+  }
+  .header__logo {
+    font-size: 36px ;
+  }
+  .footer__button-enter,
+  .footer__button-registration,
+  .footer__login,
+  .footer__password {
+    margin: 0 auto;
+  }
+  .footer__login {
+    margin-left: 30px ;
+  }
+  .link-menu {
+    justify-content: center ;
+  }
+  .footer__form {
+    flex-wrap: wrap ;
+    margin: 0 auto ;
+    display: flex ;
+  }
+
+  .link-section {
+    display: block;
+  }
+  .info-container-item {
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center ;
+    display: flex ;
+  }
+
+  .info-container__table {
+    margin-top: 40px;
+    width: 100% ;
+    margin-left: 0 ;
+  }
+  .title-section__button-enter {
+    margin-left: 40px ;
+  }
+  iframe {
+    width: 100% ;
+  }
+  .footer,
+  .footer-item2,
+  .menu-section,
+  .pay-info,
+  .pay-info__links,
+  .title-section,
+  .link-menu,
+  .title-section-item2 {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .footer__button-registration {
+    margin-top: 20px ;
+    display: flex;
+  }
+  .pay-info__icon {
+    margin-right: 40px ;
+  }
+  .title-section__button-enter,
+  .title-section__button-registration {
+    margin-top: 20px ;
+  }
+  .pay-info__header,
+  .pay-info__links,
+  .footer__form {
+    display: flex ;
+    margin: 0 auto ;
+  }
+  .footer,
+  .title-section {
+    display: flex ;
+    justify-content: center ;
+  }
+
+  .menu-section {
+    justify-content: center ;
+  }
+  .menu-section__button {
+    margin: 20px ;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .info-container-item {
+    flex-wrap: wrap;
+    flex-direction: row ;
+    justify-content: center ;
+    display: flex ;
+  }
+  .title-section__button-enter {
+    margin-right: 30px ;
+  }
+  .footer__button-enter {
+    margin-bottom: 20px ;
+  }
+  .header__title {
+    text-align: center ;
+    padding: 0 ;
+  }
+  .title-section {
+    z-index: 50000000000;
+  }
+  .menu-section__button {
+    width: 40% ;
+    margin: 5px ;
+
+    flex-direction: row ;
+    margin: 0 auto;
+  }
+
+  .menu-section__text {
+    font-size: 14px ;
+  }
+  .container {
+    width: 40% ;
+
+    flex-direction: row ;
+    margin: 0 auto;
+  }
+
+  .menu-section {
+    margin: 0 auto ;
+    padding: 0 ;
+    margin: 0 ;
+    justify-content: center;
+  }
+
+  .footer__login,
+  .footer__password,
+  .footer__button-registration {
+    margin: 0 auto ;
+    display: flex ;
+  }
+  .footer__button-enter {
+    margin-right: 0 ;
+    margin: 0 auto ;
+    display: flex ;
+    margin-bottom: 20px ;
+  }
+  .link-section__link {
+    margin-left: 0 ;
+    margin: 0 auto ;
+  }
+  .link-section {
+    position: absolute;
+    top: 340px;
+
+    z-index: 100000000000;
+  }
+  .info-container {
+    padding-top: 50px ;
+  }
+
+  .info-container__table {
+    margin-top: 40px;
+    width: 100% ;
+
+    margin-left: 0 ;
+  }
+  iframe {
+    width: 100% ;
+    height: 80% ;
+  }
+
+  .info-container-item {
+    flex-wrap: wrap;
+  }
+  .header__number {
+    font-size: 50px ;
+  }
+  .header__logo {
+    font-size: 35px ;
+  }
+  .header {
+    background: #02247d ;
+    display: flex ;
+    justify-content: center ;
+    flex-direction: column ;
+    text-align: center;
+    padding-left: 0 ;
+  }
+  .header__button {
+    margin: 0 auto ;
+    display: flex ;
+    text-align: center;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    padding-left: 15px;
+  }
+  .header__title {
+    padding-right: 0 ;
+    font-size: 30px ;
+    padding-top: 60px ;
+    margin: 0 auto ;
+  }
+
+  .info-container {
+    display: flex;
+    margin: 0 auto ;
+  }
+  .info-container__button {
+    margin-left: 0 ;
+    margin: 0 auto ;
+    display: flex ;
+    margin-top: 30px ;
+  }
+  .footer,
+  .footer-item2,
+  .menu-section,
+  .pay-info,
+  .pay-info__links,
+  .title-section,
+  .link-menu,
+  .link-section {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .title-section-item2 {
+    flex-direction: column ;
+    display: flex ;
+  }
+  .info-container__button {
+    margin: 0 ;
+  }
+  .info-container__game {
+    width: 100% ;
+    height: 100% ;
+  }
+  .main-block-item1 {
+    justify-content: baseline ;
+    padding: 0 ;
+  }
+  .container {
+    width: 48% ;
+  }
+  .footer__password,
+  .footer__login {
+    margin-bottom: 20px ;
+  }
+  .link-menu {
+    justify-content: flex-start ;
+  }
+
+  .title-section {
+    padding-left: 0 ;
+    padding-right: 0 ;
+  }
+  .title-section__button-enter,
+  .title-section__button-registration {
+    margin-top: 20px ;
+  }
+  .pay-info__header {
+    display: flex ;
+    margin: 0 auto ;
+  }
+  .pay-info__icon {
+    margin-right: 15px ;
+  }
+  .pay-info__links {
+    margin: 0 auto;
+  }
+  .footer,
+  .title-section {
+    display: flex ;
+    justify-content: center ;
+  }
+  .footer-item2,
+  .footer-item1 {
+    display: flex;
+    width: 60% ;
+  }
+  .title-section-item1,
+  .title-section-item2 {
+    flex-direction: row ;
+    justify-content: center ;
+    display: flex ;
+  }
+  .title-section {
+    padding-left: 15% ;
+    padding-right: 15% ;
+  }
+  .title-section-item2 {
+    flex-direction: column ;
+  }
+
+  .link-section {
+    margin: 0 ;
+    padding: 0 ;
+    flex-direction: column;
+    width: 100% ;
+  }
+  .link-menu {
+    flex-direction: row ;
+    justify-content: center ;
+    display: flex ;
+    margin: 0 ;
+  }
+
+  .title-section__logo-casino {
+    margin: 0 ;
+  }
+
+  .title-section__logo-text {
+    width: 80% ;
+    height: 80% ;
+    margin-top: 10px ;
+    margin-left: 0 ;
+  }
+  .title-section__button-enter {
+    margin-right: 0 ;
+  }
+
+  .hamburger {
+    display: inline;
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 30px 55px;
+    color: white;
+    border: 0;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000;
+  }
+  .cross {
+    background: none;
+
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding: 30px 55px;
+
+    color: white;
+    border: 0;
+    font-size: 4em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 1000000;
+  }
+  .info-container__header-table {
+    font-size: 12px ;
+  }
+  .info-container__header-description {
+    font-size: 10px ;
+  }
+}
+@media (min-width: 923px) and (max-width: 1200px) {
+  .footer__button-registration {
+    margin: 0 ;
+    margin-left: 10px ;
+  }
+}
+.middle {
+  width: 20% ;
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .info-container__title-game {
+    font-size: 9px ;
+  }
+  .info-container__demo {
+    width: 30px ;
+    height: 30px ;
+  }
+  .header__text {
+    width: 350px ;
+    margin: 0 auto;
+  }
+  .demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .info-container__demo-button {
+    font-size: 9px ;
+
+    height: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 10px ;
+    margin-top: 30px ;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .info-container__title-game {
+    font-size: 8px ;
+  }
+  .info-container__demo {
+    width: 30px ;
+    height: 30px ;
+  }
+  .demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px ;
+  }
+  .info-container__demo-button {
+    font-size: 9px ;
+
+    height: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 10px ;
+    margin-top: 20px ;
+  }
+  .info-container__demo {
+    width: 40px ;
+    height: 40px ;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 750px) {
+  .info-container__title-game {
+    font-size: 15px ;
+
+    margin-bottom: 40px ;
+  }
+
+  .demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 70%;
+    margin-top: 0px ;
+  }
+  .info-container__demo-button {
+    font-size: 9px ;
+
+    height: 40px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 10px ;
+  }
+  .info-container__demo {
+    width: 50px ;
+    height: 50px ;
+  }
+}
+@media (min-width: 768px) and (max-width: 1059px) {
+  .footer__form {
+    margin: 0 auto ;
+    justify-content: center;
+    padding-left: 0 ;
+    padding-right: 0 ;
+    display: flex;
+  }
+  .footer__button-enter {
+    margin-right: 0 ;
+  }
+}
+@media (min-width: 764px) and (max-width: 768px) {
+  .footer__form {
+    padding-left: 40px ;
+  }
+}
+@media (min-width: 923px) and (max-width: 954px) {
+  .footer__button-registration {
+    margin-top: 20px ;
+  }
+}
+@media (max-width: 1500px) {
+  .menu-section-item {
+    justify-content: center ;
+  }
+}
+@media (max-width: 1540px) {
+  .info-container__button {
+    margin: 0 auto ;
+    display: flex;
+    margin-top: 20px ;
+  }
+}
+
+@media (max-width: 455px) {
+  .link-section {
+    top: 320px ;
+  }
+  .info-container__header-table {
+    font-size: 11px ;
+  }
+  .info-container__table-description {
+    font-size: 10px ;
+  }
+  .info-container__table-info {
+    font-size: 10px ;
+  }
+  .info-container__icon {
+    margin-right: 3% ;
+  }
+  .header__text {
+    width: 250px ;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1520px) {
+  .item2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 90% ;
+  }
+
+  .info-container__table {
+    width: 90% ;
+    font-size: 16px;
+    height: auto ;
+    margin: 0 auto ;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .header__button {
+    margin-bottom: 10px ;
+
+    margin-top: 5px ;
+  }
+  .header__number {
+    font-size: 130px ;
+  }
+  .header__title {
+    font-size: 26px ;
+    padding-top: 20px ;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1300px) {
+  .header__button {
+    margin-bottom: 5px ;
+
+    margin-top: 0px ;
+    height: 40px ;
+  }
+  .header__number {
+    font-size: 70px ;
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+  }
+  .header__title {
+    font-size: 20px ;
+    padding-top: 10px ;
+    padding-left: 10px;
+  }
+  .hedaer__info {
+    font-size: 18px ;
+    padding-left: 10px;
+  }
+}

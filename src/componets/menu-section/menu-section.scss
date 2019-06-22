@@ -1,0 +1,55 @@
+.menu-section{
+    background-color: #001843;
+	max-width: 100%;
+	
+ 
+    
+    
+    &-item{
+        display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+    flex-direction: row;
+    max-width:1624px;
+    padding-left: 30px;
+	padding-right: 30px;
+  
+    margin: 0 auto;
+   
+	
+
+    }
+    &__text{
+        color: #ffffff;
+
+font-size: 18px;
+font-weight: 300;
+margin-bottom:20px;
+display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    &__button{
+        border:0;
+        background-color: #001843;
+        width: 248px;
+height: 198px;
+        cursor: pointer;
+     
+       
+
+        &:hover{
+            background-color: #cfd8dc;
+        }
+
+    }
+    &__img{
+        display: flex;
+        margin: 0 auto;
+        margin-top:39px;
+        margin-bottom:20px;
+        
+    }
+    
+}
+

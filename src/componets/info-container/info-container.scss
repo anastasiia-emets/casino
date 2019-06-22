@@ -1,0 +1,103 @@
+.info-container {
+	background-color: #cfd8dc;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1624px;
+	padding-bottom:10px;
+	display:flex;
+	flex-direction:column;
+	font-family: var(--main1-font-family);
+	color: #001843;
+	margin: 0 auto;
+	padding-top:40px;
+	&-item{
+		margin-top:50px;
+		display:flex;
+		
+		
+	}
+	&__table{
+		border-radius: 4px;
+		background-color: #001843;
+		width:34%;
+		margin-left:30px;
+		height: 580px;
+
+		padding-left: 20PX;
+		padding-right: 30PX;
+		
+	}
+	&__header-table{
+color: #ffffff;
+margin-top:19px;
+text-align:center;
+font-size: 16px;
+font-weight: 700;
+margin-bottom:37px;
+	}
+	&__icon{
+		width: 28px;
+		height: 28px;
+		margin-right:10%;
+
+	}
+	&__table-description{
+		
+color: #ffffff;
+font-size: 15px;
+font-weight: 700;
+text-align:left;
+width: 30%;
+
+
+	}
+	&__table-info{
+color: #ffffff;
+font-size: 15px;
+font-weight: 300;
+margin-left: 30%;
+
+	}
+	&__row-table{
+		display:flex;
+	
+	
+		margin-bottom:20px;
+		
+
+	}
+	&__game{
+		width:23%;
+	
+		margin-bottom:50px;
+	}
+	
+
+	
+}
+
+.info-container h1, .info-container h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-top:40px;
+	text-align: left !important;
+}
+.info-container p{
+	font-size: 16px;
+	font-weight: 400;
+	margin-top:30px;
+}
+
+
+
+.wrapp-info-container{
+	background-color: #cfd8dc;
+	max-width:100%;
+	
+}
+.main-block-item1{
+justify-content: space-around;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}

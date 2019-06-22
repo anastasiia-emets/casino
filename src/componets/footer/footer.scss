@@ -1,0 +1,131 @@
+.footer {
+	background-color: #040f23;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1624px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+
+	font-family: var(--main1-font-family);
+	&__button-enter{
+		padding:14px 20px 14px 20px;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+		border-radius: 28px;
+		background-color: #d50000;
+		color: #ffffff;
+		font-size: 20px;
+		font-weight: 700;
+		font-family: var(--main1-font-family);
+		text-align: center;
+		border:0;
+		margin:0;
+		border:0;
+		cursor: pointer;
+		margin-right:30px;
+		&:hover{
+			background-color: grey;
+				transition: background-color 1000ms linear;
+		}
+		
+	}
+	&__button-registration{
+		padding:14px 50px 14px 50px;
+		border-radius: 32px;
+		background-color: #ffd54f;
+		font-family: var(--main1-font-family);
+		color: #001843;
+		font-size: 20px;
+		font-weight: 700;
+		cursor: pointer;
+		border:0;
+		&:hover{
+			background-color: grey;
+			transition: background-color 1000ms linear;
+		}
+	}
+	&__logo-casino{
+		width:56px;
+		height:56px;
+		
+		background-image: url(../../images/cas.png);
+        background-position: center;
+		background-repeat: no-repeat;
+		position:absolute;
+		margin-top:32px;
+
+
+	}
+	.link-section{
+		padding-left:0 !important;
+	}
+	&__logo-text{
+		width:180px;
+		height:36px;
+		
+margin-top:40px;
+margin-left:70px;
+	}
+	&-item2{
+		margin-top:30px;
+		display:flex;
+		flex-wrap: wrap;
+		
+	}
+	&__login{
+	
+
+		width: 139px;
+		height: 55px;
+		padding-left:35px;
+		border-radius: 4px;
+		
+		color: #001843;
+		
+		font-size: 20px;
+		font-weight: 400;
+		background-color: #cfd8dc;
+		margin-right:30px;
+		border:0;
+			}
+			&__password{
+				width: 248px;
+height: 55px;
+padding-left:84px;
+				border-radius: 4px;
+				color: #001843;
+				font-size: 20px;
+				font-weight: 400;
+				background-color: #cfd8dc;
+				margin-right:30px;
+				margin-left:30px ;
+				border:0;
+					}
+}
+
+.footer-text {
+	background-color: #040f23;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: 1624px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	
+	&__author{
+		color: #ffffff;
+		font-family: var(--main1-font-family);
+		font-size: 16px;
+		font-weight: 300;
+		margin-bottom:30px;
+		margin-top:35px;
+
+	}
+
+	
+}
+
+.wrapp-footer,.wrapp-footer-text{
+	background-color: #040f23;
+	max-width: 100%;
+}
