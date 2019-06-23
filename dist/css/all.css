@@ -67,7 +67,7 @@
   height: 86px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-image: url(images/casino.png);
+  background-image: url(../images/casino.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -351,7 +351,7 @@
 .pay-info__icons_paypal {
   width: 109px;
   height: 86px;
-  background-image: url(images/pay.png);
+  background-image: url(../images/pay.png);
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 35px;
@@ -371,7 +371,7 @@
 .pay-info__icons_mastercard {
   width: 109px;
   height: 86px;
-  background-image: url(images/master.png);
+  background-image: url(../images/master.png);
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -397,7 +397,7 @@
 .pay-info__icons_maestro {
   width: 109px;
   height: 86px;
-  background-image: url(images/maestro.png);
+  background-image: url(../images/maestro.png);
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -423,7 +423,7 @@
 .pay-info__icons_visa {
   width: 109px;
   height: 86px;
-  background-image: url(images/visa.png);
+  background-image: url(../images/visa.png);
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -448,7 +448,7 @@
 .pay-info__icons_yandex {
   width: 109px;
   height: 86px;
-  background-image: url(images/yandax.png);
+  background-image: url(../images/yandax.png);
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -531,7 +531,7 @@
 .footer__logo-casino {
   width: 56px;
   height: 56px;
-  background-image: url(images/cas.png);
+  background-image: url(../images/cas.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
